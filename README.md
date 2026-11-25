@@ -1,41 +1,44 @@
-# The Tuesday Gazette
+# The Night Desk
 
 [![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 [![rank](https://make.fun/badge/news-image-20261124/giiordi/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 [![reward](https://make.fun/badge/news-image-20261124/giiordi/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
-A one-page newspaper front page that sums up **Tuesday, 24 November 2026**
-in six stories — drawn entirely in code, standard library only, with a
-hand-designed 5x7 bitmap font and a from-scratch PNG encoder, so every run
-produces the same deterministic 1024x1024 image.
+"THE NIGHT DESK" — a rebuild resubmission for make.fun's "Sum up 24 November's
+world news in one image" bounty, $100 in USDC. A dark tabloid front page of
+Tuesday 24 November 2026 in six stories — drawn entirely in code, standard
+library only, with a hand-designed 5x7 bitmap font and a from-scratch PNG
+encoder, so every run produces the same deterministic 1024x1024 image.
 
 ## The six stories
 
-- **Lead — Huawei convicted.** A Brooklyn jury finds Huawei guilty on 10 of
-  12 counts: bank fraud, wire fraud, sanctions violations and conspiracy to
-  steal trade secrets, including the T-Mobile "Tappy" robot and Cisco source
-  code. Acquitted on racketeering conspiracy and obstruction. Sentencing is
-  set for September 2027.
-- **Yemen — Houthis 60 km from Aden.** Rebels advance on the interim capital
-  as the army holds a fortified line.
-- **Economy — U.S. confidence jumps to 103.3.** Highest in nearly two years,
-  the Conference Board says.
-- **The Hague — 14 nations back the ICJ genocide ruling.** A joint statement
-  says Myanmar violated the Genocide Convention over the Rohingya.
-- **Turkey — five killed in air force crash.** An AS-532 Cougar goes down
-  after takeoff from Eskisehir. Cause unknown.
-- **Colombia — 25 held in a Cartagena supermarket siege.** Gunmen seize an
-  Exito store after a failed armored-van robbery.
+- **Lead — Nepal quake.** A 5.3-magnitude earthquake shakes Koshi Province
+  at 07:02 IST. Tremors are felt across India, Bhutan, Bangladesh and China.
+  No deaths reported. (USGS / EMSC / India's NCS)
+- **Riyadh — drone hits PIF Tower.** A Houthi drone strikes the tallest
+  tower in the Saudi capital for the second time in a week. 11 wounded.
+  (WSJ / Reuters / Al Jazeera)
+- **Sport — Senegal champions again.** The Court of Arbitration for Sport
+  reinstates Senegal as AFCON 2025 winners, confirming the 1-0 final over
+  Morocco. (Reuters / AP)
+- **Colombia — car bomb wounds 23.** A blast outside the Meta governor's
+  office in Villavicencio. The president blames FARC dissidents.
+  (AP / Al Jazeera)
+- **United Nations — one year to tame AI.** Secretary-General Guterres urges
+  states to agree a global AI risk framework within a year. (UN News)
+- **Pennsylvania — measles, ninth death.** 1,638 cases in 46 counties; all
+  nine dead were unvaccinated. (Pennsylvania Department of Health)
 
-All six stories were first reported on Tuesday, 24 November 2026. Sources:
-Reuters, AP, The Wall Street Journal, CNN, the Conference Board, the ICJ.
+All six stories were first reported on Tuesday, 24 November 2026. None of
+them appeared in the three earlier entries for this bounty.
 
 ## Design
 
-A light cream-paper broadsheet: a serif masthead with the date, a big lead
-panel with a drawn courtroom scene — pillars, gavel and a red GUILTY stamp —
-a ruled three-column section for the other five stories, a small globe marking
-where each story happened, and a "Day in Numbers" strip along the bottom.
+A dark tabloid front page: a white masthead on ink navy, a red rule and amber
+dateline, a big lead panel with a drawn seismograph trace and mountain
+silhouettes, a two-column grid of five stories each with its own drawn icon
+(tower, trophy, blast, network, virus), and a red "Day in Numbers" strip
+along the bottom.
 
 ## Run it
 
